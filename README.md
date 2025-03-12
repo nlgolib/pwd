@@ -8,12 +8,7 @@ This package provides a simple way to hash and verify passwords using bcrypt.
 go get github.com/nlgolib/pwd
 ```
 
-## Usage
+## Functionality Highlights
 
-```go
-hash, err := pwd.Hash("password")
-```
-
-```go
-verified := pwd.Verify("password", hash)
-```
+- [x] Hash passwords
+- [X] Verify hashed passwords
