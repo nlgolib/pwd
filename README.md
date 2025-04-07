@@ -1,6 +1,6 @@
 # Password hashing and verification
 
-[![Tests](https://github.com/nlgolib/pwd/actions/workflows/go.yml/badge.svg)](https://github.com/nlgolib/pwd/actions/workflows/go.yml)
+[![Tests](https://github.com/nlgolib/pwd/actions/workflows/go.yml/badge.svg?branch=v1)](https://github.com/nlgolib/pwd/actions/workflows/go.yml)
 
 This package provides a simple way to hash and verify passwords using bcrypt.
 
