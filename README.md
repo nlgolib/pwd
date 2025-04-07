@@ -8,7 +8,13 @@ This package provides a simple way to hash and verify passwords using bcrypt.
 go get github.com/nlgolib/pwd
 ```
 
-## Functionality Highlights
+## Execute Tests
+
+```bash
+ginkgo -v ./...
+```
+
+## Highlights
 
 - [x] Hash passwords
 - [X] Verify hashed passwords
