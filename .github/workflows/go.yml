@@ -20,5 +20,8 @@ jobs:
       - name: Install dependencies
         run: go mod download
 
+      - name: Install Ginkgo
+        run: go install github.com/onsi/ginkgo/v2/ginkgo@latest
+
       - name: Run tests
         run: ginkgo -v ./... 
